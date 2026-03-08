@@ -29,3 +29,7 @@ function familyMembers() {
 function kitchen() {
   document.getElementById("output").innerHTML=`</br><iframe src="https://quizlet.com/1143704084/flashcards/embed?i=5j8jnu&x=1jj1" height="500px" width="100%" style="border:0"></iframe></br>`;
 }
+
+function complexSentences() {
+  document.getElementById("output").innerHTML=`</br><iframe src="https://quizlet.com/1153363352/flashcards/embed?i=5j8jnu&x=1jj1" height="500px" width="100%" style="border:0"></iframe></br>`;
+}
