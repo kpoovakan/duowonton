@@ -9,16 +9,28 @@
         background-color: black;
         color: white;
         margin: 15px;
+        font-family: "din-2014-rounded-variable", sans-serif;
+        font-size: 17px;
+        font-weight: 500;
          a:link, a:hover, a:visited {
           color: lightgrey;
           text-decoration: none;
         }
       }
+      .header {
+        font-size: 28px;
+        font-weight: 700;
+      }
+      .footer {
+        font-size: 19px;
+        font-weight: 700;
+      }
     </style>
+    <link rel="stylesheet" href="https://use.typekit.net/juq2qhy.css">
   </head>
   <body>
-    <h1>Duowonton</h1>
-    <p>Welcome to Duowonton! Quickly review Indonesian vocabulary ad-free.</p>
+    <p class="header">Duowonton</p>
+    <p>Welcome to Duowonton! Quickly review Indonesian vocabulary ad-free. This web app will not run correctly if JavaScript is disabled.</p>
     <!-- <button onclick="template()">Template</button> -->
     <button onclick="pronouns()">Pronouns</button>
     <button onclick="berVerbsIntro()">Intro to Ber-Verbs</button>
@@ -29,13 +41,14 @@
     <button onclick="kitchen()">Kitchen</button>
     <button onclick="complexSentences()">Complex Sentences</button>
     <button onclick="professions()">Discuss Professions</button>
+    <button onclick="daysAndtimes()">Days and Times</button>
     <hr>
   </br>
   </br>
     <p id="output"></p>
   </br>
     <hr>
-    <h2>Duowonton</h2>
+    <p class="footer">Duowonton</p>
     <p>Created by <a href="https://kpoovakan.github.io">kpoovakan</a>.</p>
   </body>
 </html>
