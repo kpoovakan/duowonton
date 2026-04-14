@@ -39,5 +39,5 @@ function professions() {
 }
 
 function daysAndTimes() {
-  document.getelementById("output").innerHTML=`</br><iframe src="https://quizlet.com/1167875006/flashcards/embed?i=5j8jnu&x=1jj1" height="500px" width="100%" style="border:0"></iframe></br>`;
+  document.getElementById("output").innerHTML=`</br><iframe src="https://quizlet.com/1167875006/flashcards/embed?i=5j8jnu&x=1jj1" height="500px" width="100%" style="border:0"></iframe></br>`;
 }
